@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     margin: 0; 
     font-family: cursive;
@@ -57,4 +58,65 @@ input{
 .info-text{ 
     font-size: 20px; 
     font-weight: 500;
+=======
+body{
+    margin: 0; 
+    font-family: cursive;
+    background:linear-gradient(to left bottom,lightgreen,lightblue); 
+    justify-content: center;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    text-align: center;  
+    min-height: 100vh;
+    overflow-y: auto;   
+    padding: 20px; 
+} 
+h1{
+    font-size: 30px; 
+    font-family: 'Times New Roman', Times, serif; 
+
+}
+.container{ 
+    background: rgb(255, 255, 255, 0.3); 
+    padding: 20px;
+    display: flex; 
+    flex-direction: column;
+    border-radius: 5px; 
+    box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.3); 
+    width: 400px;
+    height: 500px;
+    
+} 
+h2{
+    text-align: left;
+    font-size: 18px;
+}
+input{
+    padding: 10px 20px; 
+    font-size: 18px; 
+    border-radius: 5px; 
+    background-color: aliceblue; 
+    border-color: rgba(255, 255, 255, 0.5); 
+    margin: 10px;
+}
+
+.btn{
+    background-color: cadetblue;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    border: none; 
+    margin: 10px; 
+    font-size: 20px; 
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.3); 
+    cursor: pointer ; 
+} 
+.btn:hover{
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.3); 
+    transition: all 300ms ease; 
+} 
+.info-text{ 
+    font-size: 20px; 
+    font-weight: 500;
+>>>>>>> c43ce860aaa74519c136506415ed5023bb923b15
 }
